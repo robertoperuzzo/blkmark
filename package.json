@@ -1,0 +1,20 @@
+{
+  "name": "custom-theme",
+  "title": "Custom theme for Jekyll based on Bootstrap",
+  "version": "1.0.0",
+  "homepage": "http://robertoperuzzo.it",
+  "author": "Roberto Peruzzo",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
