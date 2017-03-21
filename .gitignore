@@ -6,3 +6,7 @@ _site
 
 # Ignore grunt dependecies
 node_modules
+
+# Ignore Gemfile
+Gemfile.lock
+
