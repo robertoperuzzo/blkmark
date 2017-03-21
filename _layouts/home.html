@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+<header class="intro-header">
+    <div class="row">
+        <div class="site-heading">
+            <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+            <span class="subheading">{{ page.description }}</span>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container-fixed">
+  <div class="row row-xs-6 row--white">
+    <div class="content--bottom col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
+        <div class="content--wrapper">
+            <div class="contacts">
+                <a href="mailto:info@blkmark.com">INFO@BAKMARK.COM</a>
+            </div>
+            <ul class="socials">
+                <li class="col-xs-4">
+                    <a href="#" class="instagram">
+                        <img src="{{ page.baseurl }}/images/icon-instagram.png" alt="Instagram icon" />
+                    </a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="#" class="vimeo">
+                        <img src="{{ page.baseurl }}/images/icon-vimeo.png" alt="Vimeo icon" />
+                    </a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="#" class="facebook">
+                        <img src="{{ page.baseurl }}/images/icon-fb.png" alt="Facebook icon" />
+                    </a>
+                </li>
+            </ul>
+            <div class="caption">
+                <img src="{{ page.baseurl }}/images/no-color.png" alt="No more color" />
+            </div>
+            <a href="#" class="thumbnail">
+                <img src="{{ page.baseurl }}/images/blk.jpg" alt="Blkmark logo" />
+            </a>
+        </div>
+    </div>
+  </div>
+  <div class="row row-xs-6 row--black">
+    <div class="col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
+        <div class="content--wrapper">
+            <a href="#" class="thumbnail">
+                <img src="{{ page.baseurl }}/images/magazine.jpg" alt="Magazine logo" />
+            </a>
+            <div class="caption">
+                <img src="{{ page.baseurl }}/images/no-bw.png" alt="No black and white" />
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
