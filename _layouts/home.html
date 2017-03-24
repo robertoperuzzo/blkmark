@@ -15,12 +15,12 @@ layout: default
 <!-- Main Content -->
 <div class="container-fixed">
   <div class="row row-xs-6 row--white">
-    <div class="content--bottom col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
+    <div class="content__align-bottom col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
         <div class="content--wrapper">
             <div class="contacts">
                 <a href="mailto:info@blkmark.com">INFO@BAKMARK.COM</a>
             </div>
-            <ul class="socials">
+            <ul class="socials clearfix">
                 <li class="col-xs-4">
                     <a href="#" class="instagram">
                         <img src="{{ page.baseurl }}/images/icon-instagram.png" alt="Instagram icon" />
@@ -38,24 +38,28 @@ layout: default
                 </li>
             </ul>
             <div class="caption">
-                <img src="{{ page.baseurl }}/images/no-color.png" alt="No more color" />
+                <img id="no-color" src="{{ "/images/no-color.png" | prepend: site.baseurl}}" alt="No more color" />
+                <img id="no-color-crossed" class="hidden" src="{{ "/images/no-color-crossed.png" | prepend: site.baseurl}}" alt="No more color" />
             </div>
             <a href="#" class="thumbnail">
-                <img src="{{ page.baseurl }}/images/blk.jpg" alt="Blkmark logo" />
+                <img id="blk-logo" src="{{ "/images/blk-ksu.jpg" | prepend: site.baseurl }}" alt="Blkmark logo" />
             </a>
         </div>
     </div>
+    <div id="top-white-photo" class="hidden"></div>
   </div>
   <div class="row row-xs-6 row--black">
     <div class="col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
         <div class="content--wrapper">
             <a href="#" class="thumbnail">
-                <img src="{{ page.baseurl }}/images/magazine.jpg" alt="Magazine logo" />
+                <img id="tsk-logo" src="{{ "/images/magazine_tsk.jpg" | prepend: site.baseurl }}" alt="Thanks Skateboarding Magazine logo" />
             </a>
             <div class="caption">
-                <img src="{{ page.baseurl }}/images/no-bw.png" alt="No black and white" />
+                <img id="no-bw" src="{{ "/images/no-bw.png" | prepend: site.baseurl }}" alt="No black and white" />
+                <img id="no-bw-crossed" class="hidden" src="{{ "/images/no-bw-crossed.png" | prepend: site.baseurl }}" alt="No black and white" />
             </div>
         </div>
     </div>
+    <div id="bottom-black-photo" class="hidden"></div>
   </div>
 </div>
