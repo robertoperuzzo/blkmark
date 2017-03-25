@@ -9,17 +9,8 @@ layout: default
             <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
             <span class="subheading">{{ page.description }}</span>
         </div>
-    </div>
-</header>
-
-<!-- Main Content -->
-<div class="container-fixed">
-  <div class="row row-xs-6 row--white">
-    <div class="content__align-bottom col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
-        <div class="content--wrapper">
-            <div class="row contacts">
-                <a href="mailto:info@blkmark.com">INFO@BLKMARK.COM</a>
-            </div>
+        <div class="contacts">
+            <a href="mailto:info@blkmark.com">INFO@BLKMARK.COM</a>
             <ul class="socials clearfix">
                 <li>
                     <a href="https://preprod.instagram.com/blkmarkzine/" class="instagram" title="Instagram" target="_blank">
@@ -37,6 +28,15 @@ layout: default
                     </a>
                 </li>
             </ul>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container-fixed">
+  <div class="row row-xs-6 row--white">
+    <div class="content__align-bottom col col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5">
+        <div class="content--wrapper">
             <div class="caption">
                 <img id="no-color" src="{{ "/images/no-color.png" | prepend: site.baseurl }}" alt="No more color" />
                 <img id="no-color-crossed" class="hidden" src="{{ "/images/no-color-crossed.png" | prepend: site.baseurl }}" alt="No more color" />
@@ -49,7 +49,7 @@ layout: default
     <div id="top-white-photo" class="hidden"></div>
   </div>
   <div class="row row-xs-6 row--black">
-    <div class="col col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
+    <div class="col col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5">
         <div class="content--wrapper">
             <a href="https://issuu.com/blkmark" class="thumbnail" target="_blank">
                 <img id="tsk-logo" src="{{ "/images/magazine_tsk.jpg" | prepend: site.baseurl }}" alt="Thanks Skateboarding Magazine logo" />
