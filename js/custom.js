@@ -1,6 +1,15 @@
 $(function(){
 
   /*
+  Using jQuery .click() Events to Override Hover Styles on Mobile.
+   */
+  $('a').on('click touchend', function(e) {
+      var el = $(this);
+      var link = el.attr('href');
+      window.location = link;
+   });
+
+  /*
   Mouse over Magazine Logo.
    */
   $('#tsk-logo').hover(function() {

@@ -155,3 +155,32 @@ ul {
 .hidden {
   display: none;
 }
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+.rotate {
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  /* Standard */
+  transform: rotate(-90deg);
+}
