@@ -134,13 +134,17 @@ ul {
 }
 .socials {
   text-align: center;
-  margin: 5px 0 40px 0;
+  margin: 10px 0 40px 0;
 }
 .socials li {
+  display: inline-block;
   text-indent: -99999;
 }
+.socials li:not(:last-child) {
+  margin-right: 10px;
+}
 .socials img {
-  max-width: 100%;
+  max-width: 80%;
 }
 .hidden {
   display: none;

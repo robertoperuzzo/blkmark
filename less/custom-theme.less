@@ -126,14 +126,19 @@ ul {
 
 .socials {
   text-align: center;
-  margin: 5px 0 40px 0;
+  margin: 10px 0 40px 0;
 
   li {
+    display: inline-block;
     text-indent: -99999;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
 
+
   img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
